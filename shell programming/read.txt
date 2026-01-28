@@ -1,0 +1,7 @@
+root@MCALAP3014:/home/mca# read -p "Enter a number:" n
+Enter a number:5
+root@MCALAP3014:/home/mca# echo $n
+5
+root@MCALAP3014:/home/mca# read -s -p "Enter a password:" n
+Enter a password:root@MCALAP3014:/home/mca# echo $n
+abcd

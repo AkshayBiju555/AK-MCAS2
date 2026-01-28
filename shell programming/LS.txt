@@ -1,0 +1,121 @@
+C:\Windows>wsl
+root@MCALAP3014:/mnt/c/Windows# file1.sh
+file1.sh: command not found
+root@MCALAP3014:/mnt/c/Windows# cat file1.sh
+cat: file1.sh: No such file or directory
+root@MCALAP3014:/mnt/c/Windows# ls
+ AppReadiness                LiveKernelReports      SysWOW64                    diagnostics
+ Boot                        Logs                   System                      en-GB
+ Branding                    Media                  System32                    en-US
+ BrowserCore                 Microsoft              SystemApps                  explorer.exe
+ CbsTemp                     Microsoft.NET          SystemResources             hh.exe
+ Core.xml                    Migration              SystemTemp                  invcol.tmp
+ CoreSingleLanguage.xml      ModemLogs              TAPI                        mib.bin
+ Cursors                     OCR                    Tasks                       notepad.exe
+ DiagTrack                  'Offline Web Pages'     TbtP2pShortcutService.exe   panther.img
+ DigitalLocker               PFRO.log               Temp                        py.exe
+'Downloaded Program Files'   PLA                    UUS                         pyshellext.amd64.dll
+ DtcInstall.log              Panther                Vss                         pyw.exe
+ ELAMBKUP                    Performance            WMSysPr9.prx                regedit.exe
+ Firmware                    PolicyDefinitions      WUModels                    rescache
+ Fonts                       Prefetch               WaaS                        schemas
+ GameBarPresenceWriter       Provisioning           Web                         security
+ Globalization               Registration           WinSxS                      servicing
+ Help                        Resources              WindowsShell.Manifest       setuperr.log
+ HelpPane.exe                SKB                    WindowsUpdate.log           splwow64.exe
+ IME                         SchCache               appcompat                   system.ini
+ INF                         ServiceProfiles        apppatch                    tracing
+ IdentityCRL                 ServiceState           assembly                    twain_32
+ ImmersiveControlPanel       Setup                  bcastdvr                    twain_32.dll
+ InboxApps                   ShellComponents        bfsvc.exe                   win.ini
+ InputMethod                 ShellExperiences       bootstat.dat                winhlp32.exe
+ Installer                   SoftwareDistribution   comsetup.log                {8BFE99CA-A048-445D-8771-1A1BD952EA37}
+ L2Schemas                   Speech                 csup.txt
+ LanguageOverlayCache        Speech_OneCore         debug
+root@MCALAP3014:/mnt/c/Windows# cd ~
+root@MCALAP3014:~# cd /home/mca
+root@MCALAP3014:/home/mca# ls
+''$'\033''[A'    cat            ew.txt         file2       hjsdf.txt   menu.sh             priyu.txt2    shd.txt3      u.txt
+ 2jn.txt         cet2.txt       ewn.txt        file2.txt   hlo.txt     mm.txt              q.txt         shdg.txt      uiei.txt
+ 5               color.sh       exam.sh        file9       hqwb.txt    name.sh             q2.txt        shell.sh      w.txt
+ a.txt           copyfile.txt   exam1.sh       filename    hsdy.txt    name2.sh            q3.txt        sjbdg.txt     wekjbd.txt
+ aas.txt         d.txt          f1.sh          fl          husd.txt    new.sh              qq.sh         sjbdg.txt3    whged.txt
+ age.sh          d1.txt         f1.txt         for.sh      hy.txt      new.txt             qq1.sh        sjdh.txt      while.sh
+ ahbd.txt        d3.txt         f1name         gafs.txt    i.txt       node_modules        qq2.sh        sjdh.txt2     wj.txt
+ ajsh.txt        dd             f2.sh          gd.txt      j.txt       nsa.sh              r.txt         sjgdhf.txt    wjb.txt
+ akjdfh.txt      dd.txt         f2.txt         gd.txt3     jerru       number.sh           s.txt         sjgdhf.txt3   xjcb.txt
+ akjdfh.txt3     dhbs.txt       f2name         gfed.txt    jhg.txt     odd.sh              samp.txt      sjyhd.txt     y.txt
+ akjs.txt        dhv.txt        f3             gokul       jht.txt     oiwdgh.txt          sample.txt    snbd.txt      y1.txt
+ app.txt         dj.txt         f3.txt         great.sh    jqh.txt     one.sh              sb.txt        student.txt   yufsd.txt
+ app2.txt        dj.txt3        fact.sh        hb.txt      js.txt      p.txt               sdh.txt       sum.sh        z.txt
+ app3.txt        e.sh           fibo.sh        hbd.txt     jwg.txt     package-lock.json   sdh.txt3      t.sh
+ arattannan.sh   e.txt          fibonacci.sh   he.txt      kgne.txt    package.json        sdhbfs.txt    t.txt
+ arms.sh         ee.txt         file           hf.txt      kj.txt      pr.txt              sdhbfs.txt2   t2.txt
+ as.txt          eh.txt         file.sh        hgf         kjb.txt     pri.txt             sdjh.txt      test.sh
+ as.txt2         ejhdg.txt      file.txt       hi.txt      kjwbf.txt   prime.sh            sgd.txt       tew.txt
+ bey.txt         ekufhn.txt     file1          hii.txt     marks.txt   prime1.sh           sgd.txt3      tt.txt
+ calc.sh         erb.txt        file1.sh       hjgf.txt    mca.txt     priyu.txt           shd.txt       two.sh
+root@MCALAP3014:/home/mca# ls -t
+ f1.txt         fl           akjdfh.txt3  ''$'\033''[A'   sb.txt       i.txt      d3.txt     hlo.txt             fact.sh
+ f2.txt         file.txt     sjgdhf.txt    priyu.txt      ewn.txt      eh.txt     d1.txt     name2.sh            calc.sh
+ f2.sh          sgd.txt      sjgdhf.txt3   priyu.txt2     wekjbd.txt   y1.txt     d.txt      arattannan.sh       t.sh
+ f1.sh          gafs.txt     file2         ejhdg.txt      pri.txt      jwg.txt    j.txt      name.sh             color.sh
+ file           one.sh       ajsh.txt      as.txt         file1        hb.txt     z.txt      node_modules        number.sh
+ exam.sh        sdjh.txt     sdhbfs.txt    as.txt2        hi.txt       wj.txt     w.txt      package-lock.json   samp.txt
+ for.sh         hjsdf.txt    sdhbfs.txt2   xjcb.txt       sjyhd.txt    y.txt      a.txt      package.json        shell.sh
+ e.sh           husd.txt     dhv.txt       wjb.txt        snbd.txt     uiei.txt   q3.txt     cet2.txt            s.txt
+ sum.sh         hii.txt      gd.txt        two.sh         whged.txt    e.txt      q2.txt     mca.txt             marks.txt
+ fibonacci.sh   hsdy.txt     gd.txt3       file9          kjwbf.txt    kjb.txt    q.txt      file.sh             5
+ test.sh        hy.txt       shd.txt3      new.sh         kgne.txt     bey.txt    file1.sh   t2.txt              odd.sh
+ prime.sh       sdh.txt      sjdh.txt      dhbs.txt       jht.txt      ew.txt     f3.txt     file2.txt           great.sh
+ prime1.sh      sdh.txt3     sjdh.txt2     erb.txt        2jn.txt      u.txt      app2.txt   qq2.sh              age.sh
+ exam1.sh       sgd.txt3     aas.txt       hbd.txt        jhg.txt      t.txt      app.txt    dd.txt
+ student.txt    shd.txt      sjbdg.txt     mm.txt         kj.txt       ee.txt     app3.txt   dd
+ copyfile.txt   hjgf.txt     sjbdg.txt3    js.txt         jqh.txt      pr.txt     f3         qq1.sh
+ nsa.sh         gfed.txt     dj.txt        new.txt        hqwb.txt     p.txt      f2name     qq.sh
+ sample.txt     hf.txt       dj.txt3       akjs.txt       tt.txt       r.txt      f1name     fibo.sh
+ cat            yufsd.txt    shdg.txt      tew.txt        hgf          he.txt     filename   arms.sh
+ gokul          akjdfh.txt   oiwdgh.txt    ahbd.txt       ekufhn.txt   menu.sh    jerru      while.sh
+root@MCALAP3014:/home/mca# ls -r
+ z.txt        sum.sh        sdh.txt             p.txt          js.txt      hb.txt         fact.sh      dj.txt3         app2.txt
+ yufsd.txt    student.txt   sb.txt              one.sh         jqh.txt     great.sh       f3.txt       dj.txt          app.txt
+ y1.txt       snbd.txt      sample.txt          oiwdgh.txt     jht.txt     gokul          f3           dhv.txt         akjs.txt
+ y.txt        sjyhd.txt     samp.txt            odd.sh         jhg.txt     gfed.txt       f2name       dhbs.txt        akjdfh.txt3
+ xjcb.txt     sjgdhf.txt3   s.txt               number.sh      jerru       gd.txt3        f2.txt       dd.txt          akjdfh.txt
+ wjb.txt      sjgdhf.txt    r.txt               nsa.sh         j.txt       gd.txt         f2.sh        dd              ajsh.txt
+ wj.txt       sjdh.txt2     qq2.sh              node_modules   i.txt       gafs.txt       f1name       d3.txt          ahbd.txt
+ while.sh     sjdh.txt      qq1.sh              new.txt        hy.txt      for.sh         f1.txt       d1.txt          age.sh
+ whged.txt    sjbdg.txt3    qq.sh               new.sh         husd.txt    fl             f1.sh        d.txt           aas.txt
+ wekjbd.txt   sjbdg.txt     q3.txt              name2.sh       hsdy.txt    filename       exam1.sh     copyfile.txt    a.txt
+ w.txt        shell.sh      q2.txt              name.sh        hqwb.txt    file9          exam.sh      color.sh        5
+ uiei.txt     shdg.txt      q.txt               mm.txt         hlo.txt     file2.txt      ewn.txt      cet2.txt        2jn.txt
+ u.txt        shd.txt3      priyu.txt2          menu.sh        hjsdf.txt   file2          ew.txt       cat            ''$'\033''[A'
+ two.sh       shd.txt       priyu.txt           mca.txt        hjgf.txt    file1.sh       erb.txt      calc.sh
+ tt.txt       sgd.txt3      prime1.sh           marks.txt      hii.txt     file1          ekufhn.txt   bey.txt
+ tew.txt      sgd.txt       prime.sh            kjwbf.txt      hi.txt      file.txt       ejhdg.txt    as.txt2
+ test.sh      sdjh.txt      pri.txt             kjb.txt        hgf         file.sh        eh.txt       as.txt
+ t2.txt       sdhbfs.txt2   pr.txt              kj.txt         hf.txt      file           ee.txt       arms.sh
+ t.txt        sdhbfs.txt    package.json        kgne.txt       he.txt      fibonacci.sh   e.txt        arattannan.sh
+ t.sh         sdh.txt3      package-lock.json   jwg.txt        hbd.txt     fibo.sh        e.sh         app3.txt
+root@MCALAP3014:/home/mca# ls -S
+ file                shell.sh        marks.txt      whged.txt      file9         akjs.txt      p.txt       sdjh.txt     t2.txt
+ gokul               cat             cet2.txt       fibonacci.sh   js.txt        app2.txt      shd.txt3    w.txt       ''$'\033''[A'
+ node_modules        age.sh          mca.txt        hii.txt        sjgdhf.txt    as.txt        sjdh.txt    wekjbd.txt   5
+ exam.sh             for.sh          d3.txt         d.txt          sjgdhf.txt3   as.txt2       sjdh.txt2   gafs.txt     arms.sh
+ nsa.sh              menu.sh         tew.txt        priyu.txt      t.txt         dhbs.txt      tt.txt      jhg.txt      bey.txt
+ package-lock.json   odd.sh          z.txt          priyu.txt2     ajsh.txt      dj.txt        y.txt       kjwbf.txt    dhv.txt
+ exam1.sh            great.sh        pri.txt        shdg.txt       akjdfh.txt    dj.txt3       2jn.txt     uiei.txt     f3
+ file.sh             name2.sh        copyfile.txt   a.txt          akjdfh.txt3   sdhbfs.txt    ahbd.txt    filename     fibo.sh
+ file1.sh            while.sh        f3.txt         app.txt        dd.txt        sdhbfs.txt2   e.txt       hi.txt       file1
+ new.sh              e.sh            sjyhd.txt      ejhdg.txt      gfed.txt      shd.txt       ee.txt      jwg.txt      file2
+ qq1.sh              number.sh       dd             hbd.txt        hjsdf.txt     wjb.txt       ewn.txt     ew.txt       gd.txt
+ color.sh            s.txt           jerru          hy.txt         mm.txt        app3.txt      hb.txt      f2.txt       j.txt
+ one.sh              package.json    q3.txt         kgne.txt       new.txt       d1.txt        kjb.txt     wj.txt       t.sh
+ two.sh              sum.sh          kj.txt         sdh.txt        oiwdgh.txt    gd.txt3       pr.txt      y1.txt
+ qq2.sh              file2.txt       ekufhn.txt     sdh.txt3       sample.txt    he.txt        q.txt       f1.txt
+ qq.sh               student.txt     f1name         sgd.txt        sjbdg.txt     hf.txt        r.txt       eh.txt
+ calc.sh             name.sh         hlo.txt        u.txt          sjbdg.txt3    hgf           hqwb.txt    f1.sh
+ prime.sh            test.sh         hsdy.txt       aas.txt        snbd.txt      hjgf.txt      jqh.txt     f2.sh
+ fact.sh             fl              samp.txt       erb.txt        xjcb.txt      husd.txt      q2.txt      file.txt
+ prime1.sh           arattannan.sh   sgd.txt3       f2name         yufsd.txt     i.txt         sb.txt      jht.txt
+root@MCALAP3014:/home/mca#
