@@ -1,0 +1,13 @@
+root@MCALAP3014:/home/mca# echo "jurassic park "
+jurassic park
+root@MCALAP3014:/home/mca# echo -n "steven"
+stevenroot@MCALAP3014:/home/mca# echo -e "jurassic \park"
+jurassic \park
+root@MCALAP3014:/home/mca# echo -e "jurassic \bpark"
+jurassicpark
+root@MCALAP3014:/home/mca# echo -e "jurassic \npark"
+jurassic
+park
+root@MCALAP3014:/home/mca# echo "class world " > class.txt
+root@MCALAP3014:/home/mca# cat class.txt
+class world
