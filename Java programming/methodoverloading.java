@@ -47,3 +47,17 @@ class methodoverloading {
         System.out.println(obj.area(6, 3, 1));
     }
 }
+/*
+OUTPUT
+
+PS C:\AK> cd "Java programming" 
+PS C:\AK\Java programming> javac methodoverloading.java
+PS C:\AK\Java programming> java methodoverloading
+15
+30
+6
+10.0
+16.0
+20.0
+9.0
+*/
