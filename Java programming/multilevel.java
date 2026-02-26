@@ -1,3 +1,4 @@
+/*Q11 Multilevel inheritance */
 class Person
 {
     String name;
@@ -49,3 +50,12 @@ public class multilevel
         m.displayM();
     }
 }
+/*
+OUTPUT:
+ 
+PS C:\AK\Java programming> java multilevel
+Name: Ashwath N
+Age: 21
+Salary: 200000.0
+Department: HR
+*/
