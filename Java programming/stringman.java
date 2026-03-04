@@ -1,4 +1,4 @@
-/*Q8. String manipulatiion */
+/*Q7. String manipulatiion */
 
 import java.util.Scanner;
 public class stringman 
