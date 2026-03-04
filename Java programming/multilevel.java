@@ -1,4 +1,4 @@
-/*Q11 Multilevel inheritance */
+/*Q12 Multilevel inheritance */
 class Person
 {
     String name;
