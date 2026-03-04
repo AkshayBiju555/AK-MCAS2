@@ -1,4 +1,4 @@
-/*Q.10 Single inheritance */
+/*Q.11 Single inheritance */
 class work
 {
     void work()
