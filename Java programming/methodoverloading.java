@@ -1,6 +1,6 @@
 /*
 18-02-26
-Method Overriding  
+Q.10 Method Overriding  
 */
 
 class methodoverloading {
