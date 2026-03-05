@@ -14,7 +14,7 @@ public class sortstring {
 
         System.out.print("How many strings? ");
         int n = sc.nextInt();
-        sc.nextLine();  // clear buffer
+        sc.nextLine();  
 
         String[] arr = new String[n];
 
@@ -23,7 +23,7 @@ public class sortstring {
             arr[i] = sc.nextLine();
         }
 
-        // Sort in ascending order
+   
         Arrays.sort(arr);
 
         System.out.println("Sorted strings:");
