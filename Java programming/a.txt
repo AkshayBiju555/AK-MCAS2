@@ -1,0 +1,30 @@
+import java.io.File;
+
+public class FindFileRecursive {
+
+    public static void main(String[] args) {
+        File root = new File("C:/example"); // change to your directory
+        String targetFileName = "test.txt";
+
+        searchFile(root, targetFileName);
+    }
+
+    public static void searchFile(File dir, String target) {
+        File[] files = dir.listFiles();
+
+        if (files == null) return;
+
+        for (File file : files) {
+            if (file.isDirectory()) {
+                // go inside subdirectory
+                searchFile(file, target);
+            } 
+            else if (file.isFile()) {
+                // check file name
+                if (file.getName().equals(target)) {
+                    System.out.println("Found: " + file.getAbsolutePath());
+                }
+            }
+        }
+    }
+}
