@@ -2,17 +2,17 @@ import pymongo
 #for database connection
 conn = pymongo.MongoClient("mongodb://localhost:27017/")
 #to list databases
-#print(conn.list_database_names())
+print(conn.list_database_names())
 #to connect to our db 
-db=conn["student"]
+db=conn["temp"]
 #to list collections
-#print(db.list_collection_names())
+print(db.list_collection_names())
 #to connect to collection
-col=db["mark"]
+collection=db["dean"]
 
 #CRUD opertaions
-data={"roll_no":2,"name":"Sree","marks":10}
-#to insert the above data to collection mark
-x=col.insert_one(data)
-if(x):
-    print("data inserted")
+#data=[{"roll_no":2,"name":"Sree","marks":10},{"roll_no":3,"name":"archie"}]
+#to insert the above data to collection dean
+#x=collection.insert_many(data)
+#if(x):
+   #print("data inserted")
