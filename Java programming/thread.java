@@ -1,0 +1,67 @@
+import java.util.*;
+class multiple extends Thread
+{
+    public void run()
+    {
+        for(int i=1;i<=10;i++)
+        {
+        
+            System.out.println(i+"*5="+(i*5));
+
+        }
+
+      
+    }
+}
+class prime extends Thread
+{
+    int n;
+    prime(int limit)
+    {
+        n=limit;
+    }
+    int isPrime(int n)
+    {
+        for(int i=2;i<=n/2;i++)
+        {
+            if(n%i==0)
+            {
+                return 0;
+            }
+           
+        }
+        return 1;
+
+    }
+
+    public void run()
+    {
+        for(int i=1;i<=n;i++)
+        {
+            if(isPrime(i)==1)
+            {
+                System.out.println("prime"+ i);
+            }
+        }
+
+    }
+}
+public class thread
+    {
+        public static void main(String args[])
+        {
+            Scanner sc=new Scanner(System.in);
+            multiple m=new multiple();
+            System.out.println("enter limit");
+            int n=sc.nextInt();
+            prime p=new prime(n);
+            m.start();
+            p.start();
+
+
+        }
+        
+
+    }
+    
+
