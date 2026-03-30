@@ -58,4 +58,6 @@ for doc in mycol.find():
 for doc in mycol.find():
     print(doc)'''
     
+for i in mycol.find({},{"total":1,"_id":0}).sort("total",-1).limit(1):
+    print(i["total"])
 
