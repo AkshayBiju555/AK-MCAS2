@@ -1,0 +1,19 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `Insertproduct`(IN p_PtdID INT,IN p_Pname VARCHAR(100),IN p_Price DECIMAL(10,2),IN p_Quantity INT )
+BEGIN
+if p_Price > 0 and p_Quantity >=0 then
+INSERT INTO Product(PtdID,Pname,Price,Quantity)
+VALUES(p_PtdID,p_Pname,p_Price,p_Quantity);
+END IF;
+
+END
+
+
+
+
+create database if not exists STORE1;
+USE STORE1;
+CREATE TABLE Product(PtdID int primary key, Pname VARCHAR(100) NOT NULL,Price DECIMAL(10,2) NOT NULL,Quantity INT NOT NULL);
+CALL Insertproduct(2,'Banana',3.00,0);
+select * from Product;
+CALL Insertproduct(4,'Date',4.00,0);
+CALL Insertproduct(5,'Pineapple',10.00,10;)
