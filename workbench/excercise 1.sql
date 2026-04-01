@@ -316,7 +316,7 @@ select * from employees where last_name like "K%";
 select * from jobs where max_salary<10000;
 select lower(email) as email_lower from employees;
 select first_name,last_name from employees where extract(year from hire_date)=1995;
-select * from departments;
+select * from dept;
 select * from employees;
 delete from employees where department_id=5;
 delete from departments where department_name="Shipping";

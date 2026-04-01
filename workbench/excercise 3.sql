@@ -29,5 +29,13 @@ insert into student values('Johnson',25,1,'Math');
 update student set class=2 where name='Smith';
 insert into course values('Knowledge Engineering','CS4390',3,'CS');
 delete from student where name='Smith' and student_number=17;
+select * from student;
+
+SHOW CREATE TABLE grade_report;
+DELETE FROM grade_report
+WHERE student_number = 17;
+
+DELETE FROM student
+WHERE student_number = 17;
 
 select se.course_number,se.year,se.semester,count(g.student_number) as student_count from section se left join grade_report g on se.section_identifier=g.section_identifier where se.instructor='King' group by se.section_identifier;

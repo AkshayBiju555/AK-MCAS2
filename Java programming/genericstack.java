@@ -1,3 +1,95 @@
-public class genericstack {
+import java.util.*;
+class stack<T>
+{
+    ArrayList<T> A;
+    int top=-1;
+    int size;
+    stack(int size)
+    {
+        this.size=size;
+        this.A=new ArrayList<T>(size);
+    }
+    void push(T X)
+    {
+        if(top+1==size)
+        {
+            System.out.println("Stack overflow");
+
+        }
+        else
+        {
+            top=top+1;
+            if(A.size()>top)
+                A.set(top,X);
+            else
+                A.add(X);
+
+        }
+    }
+    T top()
+    {
+        if(top==-1)
+        {
+            System.out.println("Stack undeflow");
+            return null;
+        }
+        else
+        {
+            return A.get(top);
+
+        }
+    }
+   T pop()
+{
+    if(top==-1)
+    {
+        System.out.println("stack underflow");
+        return null;
+    }
+    else
+    {
+        T value = A.get(top);
+        top--;
+        return value;
+    }
+}
+    boolean empty()
+    {
+        return top==-1;
+    }
+    public String toString()
+{
+    if(top == -1) return "Stack is empty";
+
+    String Ans = "";
+    for(int i = 0; i <= top; i++)
+    {
+        Ans += A.get(i);
+        if(i != top) Ans += "->";
+    }
+    return Ans;
+}
+}
+
+public class genericstack 
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the size of the stack");
+        int  n=sc.nextInt();
+        stack<Integer> s1=new stack<>(n);
+        int v;
+        for(int i=0;i<n;i++)
+        {
+            System.out.println("Enter element "+(i+1)+":");
+            v=sc.nextInt();
+            s1.push(v);
+        }
+        System.out.println("\n stack after pushing " + n + " elements :\n" + s1);
+        System.out.println("\n popped element: " + s1.pop());
+        System.out.println("\n stack after pop :\n " + s1);
+
+    }
     
 }
