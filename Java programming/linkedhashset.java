@@ -35,10 +35,7 @@ public class linkedhashset {
                 case 0:
                     System.out.println("Exiting");
                     break;
-
             }
-
         }while(ch!=0);
     }
-    
 }
