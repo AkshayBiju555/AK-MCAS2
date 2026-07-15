@@ -1,0 +1,232 @@
+You have:
+* **Wednesday evening (today)**
+* **Thursday + Friday:** 4–5 hours/day
+* **Saturday + Sunday:** full days
+* **Monday noon:** TCS NQT test
+---
+
+## Wednesday Evening (2–3 hours) — Setup + Warm-up
+
+### Coding (1.5 hours)
+
+Solve 5 easy problems:
+
+* Reverse String
+* Palindrome Check
+* Two Sum
+* Find Largest Element
+* Second Largest Element
+
+### Aptitude (1 hour)
+
+Revise:
+
+* Percentages
+* Profit & Loss
+* Ratio
+
+Solve 15–20 questions.
+
+---
+
+# Thursday (4–5 hours)
+
+## Coding (2 hours)
+
+Arrays + Strings
+
+Solve 8 problems:
+
+* Remove Duplicates from Sorted Array
+* Move Zeroes
+* Best Time to Buy and Sell Stock
+* Maximum Subarray (Kadane)
+* Valid Anagram
+* Frequency of Characters
+* Longest Common Prefix
+* Rotate Array
+
+## Aptitude (2 hours)
+
+Topics:
+
+* Time & Work
+* Time, Speed & Distance
+
+Practice:
+
+* 30 questions
+
+## Reasoning (30 minutes)
+
+* Number Series
+* Coding-Decoding
+
+---
+
+# Friday (4–5 hours)
+
+## Coding (2 hours)
+
+Searching + Hashing
+
+Solve 8 problems:
+
+* Binary Search
+* Search Insert Position
+* Contains Duplicate
+* Majority Element
+* Missing Number
+* Intersection of Arrays
+* Valid Parentheses
+* First Unique Character
+
+## Aptitude (2 hours)
+
+Topics:
+
+* Simple Interest
+* Compound Interest
+* Averages
+* Mixtures
+
+Practice:
+
+* 30 questions
+
+## Verbal (30 minutes)
+
+* Grammar rules
+* Sentence correction
+
+---
+
+# Saturday (8–10 hours)
+
+## Morning (3 hours)
+
+Coding Practice
+
+Solve 10–12 mixed problems:
+
+* Arrays
+* Strings
+* Hashing
+* Basic recursion
+
+---
+
+## Afternoon (3 hours)
+
+Aptitude Intensive
+
+Topics:
+
+* Permutation & Combination basics
+* Probability basics
+* Data Interpretation
+* Number System
+
+Solve:
+
+* 50 questions
+
+---
+
+## Evening (2 hours)
+
+Take:
+
+* 1 complete TCS NQT mock test
+
+Analyze:
+
+* Wrong answers
+* Time wasted
+* Weak topics
+
+---
+
+# Sunday (8–10 hours)
+
+## Morning (3 hours)
+
+Coding revision
+
+Redo:
+
+* 10 previously solved problems
+
+Focus on:
+
+* Writing code without help
+* Time complexity
+
+---
+
+## Afternoon (3 hours)
+
+Aptitude + Reasoning
+
+Practice:
+
+* 50 aptitude questions
+* 25 reasoning questions
+
+Important:
+
+* Blood Relations
+* Directions
+* Seating Arrangement
+* Syllogism
+
+---
+
+## Evening (2 hours)
+
+Second mock test.
+
+After the mock:
+
+* Revise mistakes only.
+* Do not start new difficult topics.
+
+---
+
+# Monday Morning (1–1.5 hours)
+
+Only revision:
+
+### Coding
+
+* Sorting basics
+* Binary Search
+* HashMap usage
+* Array patterns
+
+### Aptitude
+
+* Percentage formulas
+* Profit/Loss formulas
+* Time & Work shortcuts
+* Speed formulas
+
+No heavy practice.
+
+---
+
+## Target before exam
+
+### Coding
+
+✅ 35–40 problems
+
+### Aptitude
+
+✅ 150+ questions
+
+### Mock Tests
+
+✅ 2 full mocks
+
+---
