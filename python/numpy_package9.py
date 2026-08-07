@@ -5,4 +5,3 @@ print(arr)
 
 
 
-#write a numpy program to multiplyn two given arrays of same size element by element
